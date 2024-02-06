@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.jpg";
+import HeroImage2 from "../assets/heroImage2.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -15,8 +15,9 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a fourth year student pursuing Information Science and Engineering @NHCE Bengaluru Came
-            to have new experiences, meet new people and learn new things.I find the idea of creating value and
+            I am a fourth year student pursuing Information Science and
+            Engineering @NHCE Bengaluru Came to have new experiences, meet new
+            people and learn new things.I find the idea of creating value and
             impacting the world through my work gratifying.
           </p>
 
@@ -35,9 +36,9 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="md:w-1/2 md:mb-0 mb-32">
           <img
-            src={HeroImage}
+            src={HeroImage2}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
